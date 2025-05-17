@@ -1,7 +1,7 @@
 """
-freq.py
-
 Count words and pick the top 10 most common.
+Author: Vasilisa Zaitseva.
+Date: 2025-05-16
 """
 
 import re

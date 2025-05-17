@@ -1,7 +1,7 @@
 """
-gutenberg.py
-
 Downloads plain-text from Project Gutenberg and cleans it up.
+Author: Vasilisa Zaitseva.
+Date: 2025-05-16
 """
 
 import requests

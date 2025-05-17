@@ -1,8 +1,6 @@
 """
-db.py
-
 Handles SQLite connection, schema creation, and CRUD for books + frequencies.
-Author: Vasilisa Z.
+Author: Vasilisa Zaitseva.
 Date: 2025-05-16
 """
 
@@ -51,7 +49,6 @@ def get_frequencies(title: str) -> List[Tuple[str, int]]:
 
     actual_title = match[0]
 
-    # Now fetch the frequencies for the matched title
     cur.execute("""
         SELECT word, count FROM frequencies 
         WHERE title = ? 
